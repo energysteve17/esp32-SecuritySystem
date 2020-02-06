@@ -16,7 +16,9 @@ Drivers link: https://www.silabs.com/products/development-tools/software/usb-to-
 
 
 flashLED.ino - Arduino file to flash the onboard LED of the HiLetGo ESP32.
+
 reedSwitch.ino - Arduino file to read the reed switch for our secuirty system. 
+
 securitySystem.ino - combination of both Arduino files.
 
 
