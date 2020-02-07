@@ -15,10 +15,8 @@ void loop() {
      Serial.print("\nIntruder alert.");
 
   } else {
-     if (bIntruderDetected) {
-        bIntruderDetected = false;
-        Serial.print("\nThe door is closed.");
-     }
+     if (bIntruderDetected) Serial.print("\nThe door is closed.");
+     bIntruderDetected = false;
   }
-  delay(1000);
+  delay(500);
 }
